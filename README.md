@@ -10,6 +10,8 @@ To accomplish this analysis, we first pulled data from the OpenWeatherMap API to
 After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude.  Factors we looked at included: temperature, cloudiness, wind speed, and humidity.  
 This site provides the source data and visualizations created as part of the analysis, as wells as explanations and descriptions of any trends and correlations witnessed.
 
+To create a new data table (table.html), run the convertTable.py function in the project root.  The index.html page is the home page for the project.
+
 #### Contents
 
 | File                         | Description                                                                                     |
