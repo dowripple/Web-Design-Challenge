@@ -1,5 +1,5 @@
-// A $( document ).ready() block.
-$( document ).ready(function() {
+// JavaScript Document
+$(document).ready(function() {
     
     var $tableDiv = $('#tableDiv')
 
