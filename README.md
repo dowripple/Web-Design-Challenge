@@ -5,7 +5,7 @@
 !['Image not available'](/Resources/assets/images/Fig1.png)
 
 #### Link to Live Site
-[application_link](https://dowripple.github.io/Web-Design-Challenge/)
+[Web-Design Site Link](https://dowripple.github.io/Web-Design-Challenge/)
 
 #### Description
 The purpose of this project was to analyze how weather changes as you get closer to the equator. 
