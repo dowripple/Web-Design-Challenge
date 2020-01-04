@@ -35,11 +35,11 @@
           <li class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Plots <span class="caret"></span></a>
             <ul class="dropdown-menu">
-                <li><a href="maxTemp.html">Max Temperature</a></li>
-                <li><a href="humidity.html">Humidity</a></li>
-                <li><a href="cloudiness.html">Cloudiness</a></li>
-                <li><a href="windSpeed.html">Wind Speed</a></li>              
-              </ul>
+              <li><a href="maxTemp.html">Max Temperature</a></li>
+              <li><a href="humidity.html">Humidity</a></li>
+              <li><a href="cloudiness.html">Cloudiness</a></li>
+              <li><a href="windSpeed.html">Wind Speed</a></li>              
+            </ul>
           </li>
           <li><a href="comparisons.html">Comparison</a></li>
           <li><a href="data.html">Data</a></li>
@@ -49,16 +49,53 @@
   </nav>
   <div class="container">
     <div class="row">
-        <div class="col-md-12">
-            <div class="box">
-                <h2 class="card-title">Data</h2>
-                <hr>
-                <p>The following table includes all of the data used for plotting during this project.</p>
-                <iframe src="table.html"></iframe>
-            </div>
+      <div class="col-md-7 col-sm-12">
+        <div class="box">
+            <h2 class="card-title">Summary: Latitude vs. X</h2>
+            <hr>
+            <img src="/Resources/assets/images/Fig1.png" alt="Latitude vs Temperature scatter plot" class="pull-left" width="60%" height="60%">            
+            <p class="card-text summary-text">
+              The purpose of this project was to analyze how weather changes as you get closer to the equator. 
+              To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities.
+            </p>
+            <p class="card-text summary-text">
+              After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude.  Factors we looked at included: temperature, cloudiness, wind speed, and humidity.  
+              This site provides the source data and visualizations created as part of the analysis, as wells as explanations and descriptions of any trends and correlations witnessed.
+            </p>
         </div>
+      </div>
+      <div class="col-md-5 col-sm-12">
+        <div class="box">
+          <h3 class="font-weight-light text-center text-lg-left mt-4 mb-0">Visualizations</h3>
+          <hr class="mt-2 mb-5">
+          <div class="row text-center text-lg-left">
+            <div class="col-lg-6">
+              <a href="maxTemp.html" class="d-block mb-4 h-100">
+                    <img class="img-fluid img-thumbnail" src="Resources/assets/images/fig1.png" alt="">
+              </a>
+            </div>
+            <div class="col-lg-6">
+              <a href="humidity.html" class="d-block mb-6 h-100">
+                <img class="img-fluid img-thumbnail" src="Resources/assets/images/fig2.png" alt="">
+              </a>
+            </div>
+          </div>
+          <div class="row text-center text-lg-left">
+            <div class="col-lg-6">
+              <a href="cloudiness.html" class="d-block mb-4 h-100">
+                    <img class="img-fluid img-thumbnail" src="Resources/assets/images/fig3.png" alt="">
+              </a>
+            </div>
+            <div class="col-lg-6">
+              <a href="windSpeed.html" class="d-block mb-6 h-100">
+                <img class="img-fluid img-thumbnail" src="Resources/assets/images/fig4.png" alt="">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-</div>
-
+        
+  </div>
 </body>
 </html>

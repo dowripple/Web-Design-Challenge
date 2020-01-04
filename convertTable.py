@@ -1,7 +1,7 @@
 import pandas as pd
 import os
 
-file = os.path.join("cities.csv")
+file = os.path.join("Resources","cities.csv")
 
 file_df = pd.read_csv(file, encoding="ISO-8859-1")
 

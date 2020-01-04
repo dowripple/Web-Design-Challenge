@@ -48,40 +48,47 @@
     </div><!-- /.container-fluid -->
   </nav>
   <div class="container">
-    <div class="row">
-        <div class="col-md-12">
-            <div class="box">
-                <h2 class="card-title">Comparisons: Latitude vs. X</h2>
-                <hr>
-                <p>Click on any plot to get an in-depth analysis.</p>
-                <div class="row text-center text-lg-left">
-                    <div class="col-lg-6">
-                    <a href="maxTemp.html" class="d-block mb-4 h-100">
-                            <img class="img-fluid img-thumbnail" src="assets/images/fig1.png" alt="">
-                    </a>
-                    </div>
-                    <div class="col-lg-6">
-                    <a href="humidity.html" class="d-block mb-6 h-100">
-                        <img class="img-fluid img-thumbnail" src="assets/images/fig2.png" alt="">
-                    </a>
-                    </div>
-                </div>
-                <div class="row text-center text-lg-left">
-                    <div class="col-lg-6">
-                    <a href="cloudiness.html" class="d-block mb-4 h-100">
-                            <img class="img-fluid img-thumbnail" src="assets/images/fig3.png" alt="">
-                    </a>
-                    </div>
-                    <div class="col-lg-6">
-                    <a href="windSpeed.html" class="d-block mb-6 h-100">
-                        <img class="img-fluid img-thumbnail" src="assets/images/fig4.png" alt="">
-                    </a>
-                    </div>
-                </div>
-            </div>                
+    <div class="col-lg-7 col-md-7 col-sm-12">
+        <div class="box">
+            <h2 class="card-title">Cloudiness</h2>
+            <hr>
+            <img class="img-fluid" src="Resources/assets/images/Fig3.png" alt="Latitude vs Cloudiness scatter plot" height="100%" width="100%">            
+            <p class="card-text summary-text">
+              Cloudiness seems more random than the other aspects of weather.  This is probably due to the various weather patterns at the time the data was gathered.  More cities are not cloudy than cloudy (expected), 
+              and latitude doesn't seem to have much correlation with cloudiness.
+            </p>
         </div>
-    </div>
-
+      </div>
+      <div class="col-lg-5 col-md-5 col-sm-12">
+        <div class="box">
+          <h3 class="font-weight-light text-center text-lg-left mt-4 mb-0">Visualizations</h3>
+          <hr class="mt-2 mb-5">
+          <div class="row text-center text-lg-left">
+            <div class="col-lg-6 col-md-6 col-sm-12">
+              <a href="maxTemp.html" class="d-block mb-4 h-100">
+                    <img class="img-fluid img-thumbnail" src="Resources/assets/images/fig1.png" alt="">
+              </a>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12">
+              <a href="humidity.html" class="d-block mb-6 h-100">
+                <img class="img-fluid img-thumbnail" src="Resources/assets/images/fig2.png" alt="">
+              </a>
+            </div>
+          </div>
+          <div class="row text-center text-lg-left">
+            <div class="col-lg-6 col-md-6 col-sm-12">
+              <a href="cloudiness.html" class="d-block mb-4 h-100">
+                    <img class="img-fluid img-thumbnail" src="Resources/assets/images/fig3.png" alt="">
+              </a>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12">
+              <a href="windSpeed.html" class="d-block mb-6 h-100">
+                <img class="img-fluid img-thumbnail" src="Resources/assets/images/fig4.png" alt="">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
   </div>
 </body>
 </html>

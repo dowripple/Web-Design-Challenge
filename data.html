@@ -14,6 +14,7 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap-theme.min.css" integrity="sha384-6pzBo3FDv/PJ8r2KRkGHifhEocL+1X2rVCTTkUfGk7/0pbek5mMa1upzvWbrUbOZ" crossorigin="anonymous">
   <!-- Latest compiled and minified JavaScript -->
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+  <script scr="table.js"></script>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -48,46 +49,18 @@
     </div><!-- /.container-fluid -->
   </nav>
   <div class="container">
-    <div class="col-md-7">
-        <div class="box">
-            <h2 class="card-title">Wind Speed</h2>
-            <hr>
-            <img src="/assets/images/Fig4.png" alt="Latitude vs Wind Speed scatter plot" width="550" height="350">            
-            <p class="card-text summary-text">
-              Enter Text Here!
-            </p>
+    <div class="row">
+        <div class="col-md-12">
+            <div class="box">
+                <h2 class="card-title">Data</h2>
+                <hr>
+                <p>The following table includes all of the data used for plotting during this project.</p>
+                <div id="tableDiv">
+                </div>
+            </div>
         </div>
-      </div>
-      <div class="col-md-5">
-        <div class="box">
-          <h3 class="font-weight-light text-center text-lg-left mt-4 mb-0">Visualizations</h3>
-          <hr class="mt-2 mb-5">
-          <div class="row text-center text-lg-left">
-            <div class="col-lg-6">
-              <a href="maxTemp.html" class="d-block mb-4 h-100">
-                    <img class="img-fluid img-thumbnail" src="assets/images/fig1.png" alt="">
-              </a>
-            </div>
-            <div class="col-lg-6">
-              <a href="humidity.html" class="d-block mb-6 h-100">
-                <img class="img-fluid img-thumbnail" src="assets/images/fig2.png" alt="">
-              </a>
-            </div>
-          </div>
-          <div class="row text-center text-lg-left">
-            <div class="col-lg-6">
-              <a href="cloudiness.html" class="d-block mb-4 h-100">
-                    <img class="img-fluid img-thumbnail" src="assets/images/fig3.png" alt="">
-              </a>
-            </div>
-            <div class="col-lg-6">
-              <a href="windSpeed.html" class="d-block mb-6 h-100">
-                <img class="img-fluid img-thumbnail" src="assets/images/fig4.png" alt="">
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-  </div>
+    </div>
+</div>
+
 </body>
 </html>
